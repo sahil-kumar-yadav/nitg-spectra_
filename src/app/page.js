@@ -8,20 +8,11 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-    <NavBar/>
-    
-    <div>
-      <Hero/>
-      <EventCard/>
-      <Slider/>
-      Slider
-    </div>
-    <Footer/>
-    {/* //navbar
-    //hero section
-    //Event
-    //slider
-    //footer */}
+      <NavBar />
+      <Hero />
+      <EventCard />
+      <Slider />
+      <Footer />
     </>
   )
 }
