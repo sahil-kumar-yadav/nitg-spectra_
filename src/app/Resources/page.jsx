@@ -1,13 +1,21 @@
-import styles from './resources.module.css' 
+"use client"
 
-function toggleItems(folderId) {
-    // hook use karna padega
-    const items = document.getElementById(folderId);
-    items.style.display = items.style.display === 'block' ? 'none' : 'block';
-}
+import { useState } from 'react';
+import styles from './resources.module.css' 
 
 
 function page() {
+
+    const [toggle,settoggle] = useState(false);
+
+    function toggleItems(folder1) {
+        // hook use karna padega
+        settoggle(!toggle);
+        // const items = document.getElementById(folder1);
+        items.style.display = items.style.display === 'block' ? 'none' : 'block';
+        console.log(toggle)
+    }
+
     return (
         <>
             {/* <!-- Breadcrumb --> */}
@@ -42,17 +50,17 @@ function page() {
 
 
             <div className={`${styles.container}`}>
-                <div className={`${styles.folder}`} onClick="toggleItems('folder1')">
+                <div className={`${styles.folder}`} onClick={()=>toggleItems()}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                     </svg>
                     <span>Contol System</span>
                 </div>
-                <div className={styles.items} id="folder1">
+               {toggle && <div className={styles.items} id="folder1">
                     <div><a href="../flipbook/flipbook.html">sample pdf</a></div>
                     <div>Item 2 NA</div>
                     <div>Item 3 NA</div>
-                </div>
+                </div>}
 
                 <div className={styles.folder} onClick="toggleItems('folder2')">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
