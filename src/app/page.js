@@ -1,5 +1,3 @@
-"use client"
-import LottieAnimation from '@/components/Animation/LottieAnimation/LottieAnimation'
 import EventCard from '@/components/Events/EventCard'
 import Footer from '@/components/Footer/Footer'
 import Hero from '@/components/HeroSection/Hero'
@@ -10,7 +8,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <LottieAnimation/>
       <EventCard />
       <Slider />
       <Footer />

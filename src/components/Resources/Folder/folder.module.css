@@ -1,0 +1,43 @@
+/* resources css  */
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .folder {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+  }
+  
+  .folder svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: #f39c12;
+    /* Yellow color */
+  }
+  
+  .folder span {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .items {
+    margin-left: 30px;
+    display: block;
+  }
+  
+  .items div {
+    margin-bottom: 4px;
+    color: #555;
+  }
+  
+  
+  

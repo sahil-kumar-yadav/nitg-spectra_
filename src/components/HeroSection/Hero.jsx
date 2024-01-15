@@ -2,7 +2,7 @@ import styles from './Hero.module.css'
 
 function Hero() {
     return (
-        <section className="hero-container text-white py-24 text-center relative" data-aos="fade-up" data-aos-duration="1000" >
+        <section className={`${styles.herocontainer}  text-white py-24 text-center relative `} data-aos="fade-up" data-aos-duration="1000" >
             <div className="container mx-auto">
                 <h1 className="text-4xl lg:text-6xl font-bold mb-4 leading-tight">
                     Welcome to Spectra Club
@@ -15,7 +15,7 @@ function Hero() {
                     More</a>
             </div>
             {/* <!-- Decorative element --> */}
-            <div className="hero-deco"></div>
+            <div className={styles.herodeco}></div>
         </section>
     );
 }

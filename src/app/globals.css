@@ -38,23 +38,6 @@ nav a:hover {
 
 
 
-.hero-container {
-  background: linear-gradient(45deg, #3498db, #e74c3c);
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-deco {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200%;
-  height: 150px;
-  background: rgba(255, 255, 255, 0.1);
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-  z-index: -1;
-}
 
 
 /* for flip book  */

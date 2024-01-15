@@ -1,12 +1,12 @@
 /* https://tailwindcss.com/docs/adding-custom-styles  */
 
-.hero-container {
+.herocontainer {
     background: linear-gradient(45deg, #3498db, #e74c3c);
     position: relative;
     overflow: hidden;
   }
   
-  .hero-deco {
+  .herodeco {
     position: absolute;
     bottom: 0;
     left: 50%;
