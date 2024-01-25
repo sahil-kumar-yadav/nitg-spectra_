@@ -1,19 +1,39 @@
 /* https://tailwindcss.com/docs/adding-custom-styles  */
 
 .herocontainer {
-    background: linear-gradient(45deg, #3498db, #e74c3c);
-    position: relative;
-    overflow: hidden;
+  background: linear-gradient(45deg, #3498db, #e74c3c);
+  position: relative;
+  overflow: hidden;
+}
+
+.herodeco {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.1);
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  z-index: -1;
+}
+
+.gradienttext {
+  background: linear-gradient(135deg, #ff00d2, #fed90f, #00a2ff, #09f1b8, #ff00d2, #fed90f, #00a2ff, #09f1b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size:  300% 300%;
+  animation: gradient 8s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%{
+    background-position: 0% 50%;
   }
-  
-  .herodeco {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 200%;
-    height: 150px;
-    background: rgba(255, 255, 255, 0.1);
-    clip-path: polygon(0 0, 100% 0, 50% 100%);
-    z-index: -1;
+  50%{
+    background-position: 100% 50%;
   }
+  100%{
+    background-position: 0% 50%;
+  }
+}

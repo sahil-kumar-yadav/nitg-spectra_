@@ -4,7 +4,7 @@ function Hero() {
     return (
         <section className={`${styles.herocontainer}  text-white py-24 text-center relative `} data-aos="fade-up" data-aos-duration="1000" >
             <div className="container mx-auto">
-                <h1 className="text-4xl lg:text-6xl font-bold mb-4 leading-tight">
+                <h1 className={`${styles.gradienttext} text-4xl lg:text-6xl font-bold mb-4 leading-tight1 `} >
                     Welcome to Spectra Club
                 </h1>
                 <p className="text-lg lg:text-xl">
