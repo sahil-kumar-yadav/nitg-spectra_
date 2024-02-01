@@ -53,14 +53,14 @@ const NewNav = () => {
             <div className="font-semibold top-full left-0 right-0 bg-gray-800 p-4 z-10">
                 <div className="flex flex-col space-y-2">
                     <NavLink href="/" title="Home" onClick={toggleMobileMenu} />
-                    <NavLink href="/about" title="About" onClick={toggleMobileMenu} />
+                    <NavLink href="/AboutUS" title="About" onClick={toggleMobileMenu} />
                     <NavLink
-                        href="/resources"
+                        href="/Resources"
                         title="Resources"
                         onClick={toggleMobileMenu}
                     />
                     <NavLink
-                        href="/contact"
+                        href="/ContactUs"
                         title="Contact"
                         onClick={toggleMobileMenu}
                     />
