@@ -1,6 +1,6 @@
 import styles from './pdfview.module.css'
 
-function page() {
+function PdfViewer(props) {
     return (
         <>
        <div className={styles.main} >
@@ -8,8 +8,7 @@ function page() {
                 <div className={styles.pdfviewer} id="pdf-viewer">
                     <h1>PDF Viewer</h1>
                     <div>
-
-                        <embed  id="pdf-embed" src="/pdfs/sample.pdf" type="application/pdf" width={1324} height={2000} />
+                        <embed  id="pdf-embed" src={props.path} type="application/pdf" width={1324} height={2000} />
                     </div>
 
                 </div>
@@ -19,4 +18,4 @@ function page() {
     );
 }
 
-export default page;
+export default PdfViewer;
