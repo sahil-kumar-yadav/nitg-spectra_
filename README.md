@@ -1,4 +1,5 @@
-This is a [Website]([https://nextjs.org/](https://spectra-nitg.vercel.app/)) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## [Website Link](https://spectra-nitg.vercel.app/)
 
 ![image](https://github.com/yadavsk098/nitg-spectra_/assets/121011155/8a09bdf9-9b8b-4e49-81c1-3c7c8b190364)
 
