@@ -1,4 +1,3 @@
-// Navbar.js
 "use client"
 import Link from 'next/link';
 import { useState } from 'react';
@@ -20,9 +19,9 @@ const NewNav = () => {
 
                 <div className="hidden font-semibold md:flex space-x-4">
                     <NavLink href="/" title="Home" />
-                    <NavLink href="/about" title="About" />
-                    <NavLink href="/resources" title="Resources" />
-                    <NavLink href="/contact" title="Contact" />
+                    <NavLink href="/AboutUS" title="About" />
+                    <NavLink href="/Resources" title="Resources" />
+                    <NavLink href="/ContactUs" title="Contact" />
                 </div>
 
                 <div className="md:hidden">
