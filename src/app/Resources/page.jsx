@@ -24,8 +24,8 @@ const App = () => {
 
                         {items.map((item, index) => (
                             <li>
-                                <div key={item.link} onClick={() => handlePdfClick(item.link)}>{item.name}</div>
-                                {/* <Link key={item.link} href={item.link} onClick={() => handlePdfClick(item.path)}>{item.name}</Link> */}
+                                {/* <div key={item.link} onClick={() => handlePdfClick(item.link)}>{item.name}</div> */}
+                                <Link key={item.link} href={item.link} onClick={() => handlePdfClick(item.path)}>{item.name}</Link>
                             </li>
                         ))}
 
