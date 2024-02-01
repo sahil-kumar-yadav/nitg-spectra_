@@ -1,7 +1,8 @@
 /* https://tailwindcss.com/docs/adding-custom-styles  */
 
 .herocontainer {
-  background: linear-gradient(45deg, #3498db, #e74c3c);
+  /* background: linear-gradient(45deg, #3498db, #e74c3c); */
+  background-color: #333;
   position: relative;
   overflow: hidden;
 }

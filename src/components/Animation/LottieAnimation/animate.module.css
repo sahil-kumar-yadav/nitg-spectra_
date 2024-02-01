@@ -1,0 +1,19 @@
+.box{
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .box {
+      width: 71%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      width: 70%;
+    }
+  }
