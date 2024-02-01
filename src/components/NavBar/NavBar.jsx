@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const NewNav = () => {
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen((prev) => !prev);
