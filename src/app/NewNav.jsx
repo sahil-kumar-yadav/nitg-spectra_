@@ -21,7 +21,7 @@ const NewNav = () => {
                 <div className="hidden font-semibold md:flex space-x-4">
                     <NavLink href="/" title="Home" />
                     <NavLink href="/about" title="About" />
-                    <NavLink href="/resources" title="Resources" />
+                    <NavLink href="/reso" title="Resources" />
                     <NavLink href="/contact" title="Contact" />
                 </div>
 

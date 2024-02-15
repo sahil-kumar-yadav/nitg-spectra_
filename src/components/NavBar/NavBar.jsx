@@ -20,7 +20,7 @@ const NewNav = () => {
                 <div className="hidden font-semibold md:flex space-x-4">
                     <NavLink href="/" title="Home" />
                     <NavLink href="/AboutUS" title="About" />
-                    <NavLink href="/Resources" title="Resources" />
+                    <NavLink href="/Reso" title="Resources" />
                     <NavLink href="/ContactUs" title="Contact" />
                 </div>
 

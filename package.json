@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "flowbite": "^2.2.1",
     "flowbite-react": "^0.7.2",
     "lottie-react": "^2.4.0",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-fontawesome": "^1.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
