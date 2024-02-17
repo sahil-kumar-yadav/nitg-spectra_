@@ -55,7 +55,7 @@ const NewNav = () => {
                     <NavLink href="/" title="Home" onClick={toggleMobileMenu} />
                     <NavLink href="/AboutUS" title="About" onClick={toggleMobileMenu} />
                     <NavLink
-                        href="/Resources"
+                        href="/Reso"
                         title="Resources"
                         onClick={toggleMobileMenu}
                     />
