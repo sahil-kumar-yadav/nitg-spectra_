@@ -204,21 +204,21 @@ const data = [
           {
             course: 'Wireless Communication',
             files: [
-              { name: 'File 1B1', icon: 'file-pdf', url: '/pdfs/sample.pdf' },
+              { name: 'WC NOTES', icon: 'file-pdf', url: '/pdfs/Wireless Communication Ec351 Sahil Yadav notes.pdf' },
               { name: 'File 1B2', icon: 'file-word', url: '/pdfs/sample.pdf' },
             ],
           },
           {
             course: 'Linear Integrated Circuits',
             files: [
-              { name: 'File 1B1', icon: 'file-pdf', url: '/pdfs/sample.pdf' },
+              { name: 'LIC NOTES', icon: 'file-pdf', url: '/pdfs/Linear Integrated Circuit Ec352 Sahil Yadav notes.pdf' },
               { name: 'File 1B2', icon: 'file-word', url: '/pdfs/sample.pdf' },
             ],
           },
           {
             course: 'Digital Communication',
             files: [
-              { name: 'File 1B1', icon: 'file-pdf', url: '/pdfs/sample.pdf' },
+              { name: 'DC NOTES', icon: 'file-pdf', url: '/pdfs/Digital communication Notes Ec353 Sahil Yadav.pdf' },
               { name: 'File 1B2', icon: 'file-word', url: '/pdfs/sample.pdf' },
             ],
           },
