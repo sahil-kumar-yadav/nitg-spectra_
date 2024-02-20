@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-const NewNav = () => {
+const NavBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const toggleMobileMenu = () => {
@@ -22,6 +22,7 @@ const NewNav = () => {
                     <NavLink href="/AboutUS" title="About" />
                     <NavLink href="/Reso" title="Resources" />
                     <NavLink href="/ContactUs" title="Contact" />
+                    <NavLink href="/Tools" title="Tools" />
                 </div>
 
                 <div className="md:hidden">
@@ -82,4 +83,4 @@ const NavLink = ({ href, title, onClick }) => (
     </Link>
 );
 
-export default NewNav;
+export default NavBar;
