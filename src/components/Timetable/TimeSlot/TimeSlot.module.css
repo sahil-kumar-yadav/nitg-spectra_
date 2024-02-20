@@ -1,0 +1,39 @@
+.timeSlots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Allowing time slots to wrap to the next row */
+    justify-content: space-between;
+}
+
+.timeSlot {
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    /* Make time slots take equal width */
+    margin: 2px;
+}
+
+.time {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ip {
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    /* Making input take full width within the time slot */
+}
+
+@media (max-width: 600px) {
+
+    .timeSlot {
+        flex: 0 0 100%;
+        /* Making time slots take full width on small screens */
+        margin: 5px 0;
+        /* Adding margin between time slots */
+    }
+}

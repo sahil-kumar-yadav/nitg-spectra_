@@ -1,0 +1,60 @@
+.dayContainer {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.h22 {
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.timeSlots {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Allow time slots to wrap to the next row */
+    justify-content: space-between;
+}
+
+
+
+.time {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ip {
+    margin-top: 5px;
+    width: 100%;
+    /* Make input take full width within the time slot */
+}
+
+.subject {
+    font-size: 14px;
+    color: #666;
+}
+
+
+
+@media (max-width: 600px) {
+    .dayContent {
+        flex-direction: column;
+        /* Display days in a column on small screens */
+    }
+
+    .timeSlot {
+        flex: 0 0 100%;
+        /* Make time slots take full width on small screens */
+        margin: 5px 0;
+        /* Add margin between time slots */
+    }
+}

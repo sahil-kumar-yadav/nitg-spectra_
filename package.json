@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "flowbite": "^2.2.1",
     "flowbite-react": "^0.7.2",
+    "html2canvas": "^1.4.1",
     "lottie-react": "^2.4.0",
     "next": "14.0.4",
     "react": "^18",
