@@ -4,9 +4,9 @@ function page() {
         <div class="mx-10 pt-10 pb-20">
           <div class="mb-4">
             <div class="mb-6 text-center md:mx-auto md:mb-12">
-              <h2 class="mb-4 font-bold text-4xl">Get in Touch</h2>
+              <h2 class="mb-4 font-bold text-4xl">How can we help?</h2>
               <p class="mx-auto mt-4 max-w-3xl text-xl text-gray-600">
-                In hac habitasse platea dictumst
+              Let's power up your potential and light the way to success together.
               </p>
             </div>
           </div>
@@ -14,9 +14,9 @@ function page() {
             <div class="grid md:grid-cols-2">
               <div class="h-full pr-6">
                 <p class="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400">
-                  Class aptent taciti sociosqu ad litora torquent per conubia
-                  nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
-                  scelerisque sagittis ante, ac tincidunt sem venenatis ut.
+                Empowering minds, connecting circuits, and sparking innovation - together, we illuminate the future. Reach out to us, 
+                your fellow enthusiasts, as we journey through the wonders of Electrical and Computer Engineering. Let's light up ideas 
+                and forge friendships that electrify our path to excellence.
                 </p>
                 <ul class="mb-6 md:mb-0">
                   <li class="flex">
@@ -60,7 +60,7 @@ function page() {
                         Mobile: +1 (123) 456-7890
                       </p>
                       <p class="text-gray-600 dark:text-slate-400">
-                        Mail: tailnext@gmail.com
+                        Mail: ecespectra@nitgoa.ac.in
                       </p>
                     </div>
                   </li>
@@ -75,14 +75,14 @@ function page() {
                     </div>
                     <div class="ml-4 mb-4">
                       <h3 class="mb-2">Working hours</h3>
-                      <p class="">Monday - Friday: 08:00 - 17:00</p>
-                      <p class="">Saturday &amp; Sunday: 08:00 - 12:00</p>
+                      <p class="">Monday - Friday: 09:00 - 17:00</p>
+                      <p class="">Saturday &amp; Sunday: Holidays</p>
                     </div>
                   </li>
                 </ul>
               </div>
               <div class="">
-                <h2 class="mb-4 text-2xl font-bold">Ready to Get Started?</h2>
+                <h2 class="mb-4 text-2xl font-bold">Contact Us</h2>
                 <form>
                   <div class="mb-6">
                     <div class="mb-1 sm:mb-4">
