@@ -55,7 +55,7 @@ function SociaLIcons() {
                 </a> */}
                 {/* <!--Facebook Button --> */}
 
-                <button id="facebook" class=" mx-5 bg-transparent  sticky duration-500 border-2 border-blue-600 fixed  w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-blue-600 hover:text-white text-blue-600 ">
+                <button id="facebook" class=" mx-5 bg-transparent  sticky duration-500 border-2 border-blue-600   w-12 transform hover:-translate-y-3   h-12 text-2xl rounded-full hover:bg-blue-600 hover:text-white text-blue-600 ">
                 <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto h-full w-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
                 </svg>
