@@ -1,6 +1,7 @@
-function Login() {
-    return (
+"use client"
 
+const Login = () => {
+    return (
 
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-lg">
@@ -87,7 +88,7 @@ function Login() {
 
                     <p className="text-center text-sm text-gray-500">
                         No account?
-                        <a className="underline" href="#">Sign up</a>
+                        <a className="underline" href="/signup">Sign up</a>
                     </p>
                 </form>
             </div>
@@ -97,3 +98,4 @@ function Login() {
 }
 
 export default Login;
+
